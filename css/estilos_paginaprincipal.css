@@ -1,0 +1,114 @@
+/*HOJA DE ESTILOS CSS PARA LA PAGINA PRINCIPAL*/
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav a img {
+    margin: 0px;
+    width: 150px;
+}
+
+nav {
+    background: rgb(115, 115, 230);
+    height: 110px;
+    width: 100%;
+}
+
+.enlace {
+    position: absolute;
+    padding: 10px 40px;
+}
+
+.logo {
+    height: 90px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active, li a:hover {
+    background: blue;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 110px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+section {
+    background: url(/img/dungeon\ pueblo\ 1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 110px);
+}
+
+@media (max-width: 952px){
+    .enlace {
+        padding-left: 10px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 30%;
+        height: 100vh;
+        background: rgb(118, 118, 196);
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    } 
+}
