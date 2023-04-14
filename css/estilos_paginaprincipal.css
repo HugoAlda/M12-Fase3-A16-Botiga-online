@@ -21,6 +21,7 @@ nav {
 
 .imagenes {
     flex-wrap: wrap;
+    float: left;
 }
 
 .enlace {
