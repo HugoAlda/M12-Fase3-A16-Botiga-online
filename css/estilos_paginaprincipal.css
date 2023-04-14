@@ -84,6 +84,9 @@ section {
     nav ul li a{
         font-size: 14px;
     }
+    .imagenes {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 858px){
@@ -114,5 +117,8 @@ section {
     }
     #check:checked ~ ul{
         left: 0;
-    } 
+    }
+    .imagenes {
+        flex-wrap: wrap;
+    }
 }
