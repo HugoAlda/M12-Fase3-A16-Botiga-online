@@ -22,8 +22,10 @@ nav {
 .imagenes {
     flex-wrap: wrap;
     float: left;
+    clear: both;
     object-fit: contain;
-    display: block;
+    display: flex;
+    flex-direction: row;
 }
 
 .texto1 {
@@ -37,7 +39,7 @@ nav {
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
     border-radius: 10%;
-    
+    border: 4px solid;
 }
 
 .cayman {
