@@ -19,6 +19,10 @@ nav {
     width: 100%;
 }
 
+.imagenes2 {
+    background-image: url(../img/Magazzino-vuoto.jpg);
+}
+
 .imagenes {
     flex-wrap: wrap;
     float: left;
@@ -26,6 +30,7 @@ nav {
     object-fit: contain;
     display: flex;
     flex-direction: row;
+    
 }
 
 .texto1 {
@@ -140,6 +145,36 @@ section {
     .imagenes {
         flex-wrap: wrap;
     }
+    .texto1 {
+        width: 180px;
+        height: 160px;
+    }
+    .cupra {
+        width: 180px;
+        height: 160px;
+    }
+    .cayman {
+        width: 180px;
+        height: 160px;
+    }
+    .cayman2 {
+        width: 180px;
+        height: 160px;
+    }
+    .zl1 {
+        width: 180px;
+        height: 160px;
+    }
+    .evo {
+        width: 180px;
+        height: 160px;
+    }
+    .texto1 {
+        border-radius: 10%;
+        padding-left: 60px;
+        color: black;
+        padding-right: 80px;
+    }
 }
 
 @media (max-width: 858px){
@@ -171,7 +206,95 @@ section {
     #check:checked ~ ul{
         left: 0;
     }
-    .imagenes {
-        flex-wrap: wrap;
+    .texto1 {
+        width: 120px;
+        height: 120px;
+    }
+    .cupra {
+        width: 120px;
+        height: 120px;
+    }
+    .cayman {
+        width: 120px;
+        height: 120px;
+    }
+    .cayman2 {
+        width: 120px;
+        height: 120px;
+    }
+    .zl1 {
+        width: 120px;
+        height: 120px;
+    }
+    .evo {
+        width: 120px;
+        height: 120px;
+    }
+    .texto1 {
+        border-radius: 10%;
+        padding-left: 30px;
+        color: black;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 290px){
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 30%;
+        height: 100vh;
+        background: rgb(118, 118, 196);
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .texto1 {
+        width: 120px;
+        height: 120px;
+    }
+    .cupra {
+        width: 60px;
+        height: 50px;
+    }
+    .cayman {
+        width: 60px;
+        height: 50px;
+    }
+    .cayman2 {
+        width: 60px;
+        height: 50px;
+    }
+    .zl1 {
+        width: 60px;
+        height: 50px;
+    }
+    .evo {
+        width: 60px;
+        height: 50px;
+    }
+    .texto1 {
+        border-radius: 10%;
+        color: black;
+        font-size: 12px;
+        padding-left: px;
     }
 }
