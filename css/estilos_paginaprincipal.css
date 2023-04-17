@@ -297,3 +297,64 @@ section {
         padding-left: px;
     }
 }
+
+@media (max-width: 140px){
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 30%;
+        height: 100vh;
+        background: rgb(118, 118, 196);
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .texto1 {
+        width: 120px;
+        height: 120px;
+    }
+    .cupra {
+        width: 60px;
+        height: 50px;
+    }
+    .cayman {
+        width: 60px;
+        height: 50px;
+    }
+    .cayman2 {
+        width: 60px;
+        height: 50px;
+    }
+    .zl1 {
+        width: 60px;
+        height: 50px;
+    }
+    .evo {
+        width: 60px;
+        height: 50px;
+    }
+    .texto1 {
+        border-radius: 10%;
+        color: black;
+        font-size: 12px;
+        padding-left: px;
+    }
+}
