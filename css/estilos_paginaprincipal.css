@@ -266,7 +266,7 @@ section {
     #check:checked ~ ul{
         left: 0;
     }
-
+}
 @media (max-width: 400px){
     .checkbtn {
         display: block;
@@ -357,7 +357,7 @@ section {
     #check:checked ~ ul{
         left: 0;
     }
-
+}
 @media (max-width: 140px){
     .checkbtn {
         display: block;
