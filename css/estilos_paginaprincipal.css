@@ -39,7 +39,7 @@ nav {
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
     border-radius: 10%;
-    border: 4px solid;
+    border: 3px solid;
 }
 
 .cayman {
@@ -47,6 +47,7 @@ nav {
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
     border-radius: 10%;
+    border: 3px solid black;
 }
 
 .cayman2 {
@@ -54,6 +55,7 @@ nav {
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
     border-radius: 10%;
+    border: 3px solid black;
 }
 
 .zl1 {
@@ -61,6 +63,7 @@ nav {
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
     border-radius: 10%;
+    border: 3px solid black;
 }
 
 .evo {
@@ -68,6 +71,7 @@ nav {
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
     border-radius: 10%;
+    border: 3px solid black;
 }
 
 
