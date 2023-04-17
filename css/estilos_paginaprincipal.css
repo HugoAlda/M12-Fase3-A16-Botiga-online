@@ -24,6 +24,32 @@ nav {
     float: left;
 }
 
+.cupra {
+    width: 300px;
+    height: 200px;
+}
+
+.cayman {
+    width: 300px;
+    height: 200px;
+}
+
+.cayman2 {
+    width: 300px;
+    height: 200px;
+}
+
+.zl1 {
+    width: 300px;
+    height: 200px;
+}
+
+.evo {
+    width: 300px;
+    height: 200px;
+}
+
+
 .enlace {
     position: absolute;
     padding: 10px 40px;
