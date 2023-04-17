@@ -196,7 +196,7 @@ section {
         line-height: 30px;
     }
     nav ul li a{
-        font-size: 20px;
+        font-size: 14px;
     }
     li a:hover, li a.active{
         background: none;
@@ -237,7 +237,7 @@ section {
     }
 }
 
-@media (max-width: 290px){
+@media (max-width: 400px){
     .checkbtn {
         display: block;
     }
@@ -253,11 +253,41 @@ section {
     }
     nav ul li{
         display: block;
-        margin: 50px 0;
+        margin: 8px 0;
         line-height: 30px;
     }
     nav ul li a{
-        font-size: 20px;
+        font-size: 10px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+@media (max-width: 400px){
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 30%;
+        height: 100vh;
+        background: rgb(118, 118, 196);
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+       display: block;
+        margin: 8px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 8px;
     }
     li a:hover, li a.active{
         background: none;
@@ -297,6 +327,36 @@ section {
         padding-left: px;
     }
 }
+
+@media (max-width: 236px){
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 30%;
+        height: 100vh;
+        background: rgb(118, 118, 196);
+        top: 110px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+       display: block;
+        margin: 6px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 6px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
 
 @media (max-width: 140px){
     .checkbtn {
