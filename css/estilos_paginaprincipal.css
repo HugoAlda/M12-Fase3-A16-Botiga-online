@@ -32,12 +32,14 @@ nav {
 
 .texto1 {
     background-color: rgba(20, 213, 223, 0.812);
+    border-radius: 10%;
 }
 
 .cupra {
     width: 300px;
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
+    border-radius: 10%;
     
 }
 
@@ -45,24 +47,28 @@ nav {
     width: 300px;
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
+    border-radius: 10%;
 }
 
 .cayman2 {
     width: 300px;
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
+    border-radius: 10%;
 }
 
 .zl1 {
     width: 300px;
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
+    border-radius: 10%;
 }
 
 .evo {
     width: 300px;
     height: 200px;
     background-color: rgba(20, 213, 223, 0.812);
+    border-radius: 10%;
 }
 
 
