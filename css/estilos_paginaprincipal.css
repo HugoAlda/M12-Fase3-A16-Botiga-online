@@ -26,6 +26,14 @@ nav {
     display: block;
 }
 
+.Cupra {
+    text-align: center;
+}
+
+.texto1 {
+    background-color: rgba(20, 213, 223, 0.812);
+}
+
 .cupra {
     width: 300px;
     height: 200px;
